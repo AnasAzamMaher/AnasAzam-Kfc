@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* ---------------Header-------------- */
+
+.navbar{
+  background-color: rgb(21, 20, 20);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 10px;
+  color: red;
+}
+
+.navbar-brand:hover{
+  color: rgb(255, 255, 255);
+}
+
+.custom-btn1{
+  border: 2px solid red;
+  padding: 5px 20px;
+  background-color: rgb(61, 60, 60);
+
+}
+.custom-btn1 .title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.custom-btn2{
+  padding: 5px 24px;
+  background-color: rgb(61, 60, 60);
+  border: none;
+
+}
+.custom-btn2 .title{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.cart-btn{
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: auto 5px;
+}
+
+
+
+
+
+
+.cart-box img{
+  width: 80px;
+  height: 80px;
+}
+.cart-img{
+  display: flex;
+  width: 400px;
+}
+.cart-img p{
+  font-weight: bold;
+  margin-left: 10px;
+}
+.cart-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+.cart-box div:nth-child(2) button{
+  border: none;
+  margin: 2px;
+  font-weight: bold;
+  width: 30px;
+}
+.cart-box div:nth-child(2) button:hover{
+  background-color: #61dafb;
+}
+.cart-box div:nth-child(3) button{
+  padding: 4px 9px;
+  margin: 4px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cart-box div:nth-child(3) button:hover{
+  background-color: red;
+}
+.cart-box div:nth-child(3) span{
+  color: rgb(0, 0, 0);
+  padding: 4px 10px;
+  border: 1px solid black;
+  margin-left: 4px;
+}
+.total h3{
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+.price-btn{
+  text-decoration: none;
+  margin-right: 30px;
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
